@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p, li, blockquote{
+    font-size: 16px;
+}
+.main{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(244, 241, 241);
+    border-radius: 10px;
+    margin : 30px 5px 30px 5px;
+    padding: 20px;
+}
+.titre{
+    text-align: center;
+}
+.titre h1{
+    font-size: 2rem;
+}
+
+.photo{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    max-width: 100%;
+}
+.photo img{
+    width: 100%;
+}
+.life{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.life ul, blockquote{
+    display: block;
+
+    font-size: 0.95rem;
+}
+@media screen and (min-width: 968px) {
+    .life ul, blockquote{
+        width: 30%; 
+    }
+}
+.life li{
+    padding: 15px;
+}
